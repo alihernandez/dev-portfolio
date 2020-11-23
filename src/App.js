@@ -1,11 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect} from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 
-function App() {
+
+
+const App = () => {
+  
   return (
-    <div className="App">
-    </div>
+    
+      <Router>
+        <div>
+          <Switch>
+              <Route exact path="/" component={About} />
+            
+              <Route exact path="/portfolio" component={Portfolio} />
+              
+              <Route exact path="/contact" component={Contact} />
+              </Switch>
+        </div>
+      </Router>
+    
   );
-}
+};
 
 export default App;
