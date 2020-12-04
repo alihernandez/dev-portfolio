@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import About from './components/About/About';
-import Resume from './components/Resume';
-import Portfolio from './components/Portfolio';
-import Testimonials from './components/Testimonials';
+import Resume from './components/Resume/Resume';
+import Portfolio from './components/Portfolio/Portfolio';
+import Testimonials from './components/Testimonials/Testimonials';
 // import Contact from './components/ContactForm';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 import resumeData from './components/ResumeData/resumeData';
-import ContactMe from './components/ContactForm';
+import ContactMe from './components/ContactForm/Contact';
 
 class App extends Component {
   render() {

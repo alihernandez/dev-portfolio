@@ -39,7 +39,7 @@ export default class Header extends Component {
                         </div>
                     </div>
                     <p className="scrolldown">
-                        <a className="smoothscroll" href="#about"><i classNAme="icon-down-circle"></i></a>
+                        <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
                     </p>
                 </header>
             </React.Fragment>
