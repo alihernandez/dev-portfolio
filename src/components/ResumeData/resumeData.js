@@ -1,6 +1,6 @@
 let resumeData = {
     "imagebaseurl":"https//ivy555.github.io/",
-    "name": "Alí",
+    "name": "Alí Hernandez",
     "role": "Full Stack Developer",
     "linkedinId": "ali-hernandez-96b1b71a9",
     "roleDescription": "",
@@ -18,7 +18,7 @@ let resumeData = {
     ],
     "aboutme": "I am a student at the University of Denver, currently enrolled in the fullstack web development bootcamp. Originally from Guadalajara, Jalisco Mexico, he currently resides in the Rocky Mountains in Colorado. Enjoys snowboarding, music, and most things tech. Fluent in both Spanish and English. Attentive to detail and great work ethic.",
     "address": "Colorado",
-    // "website": "",
+    "url": "https://www.linkedin.com/in/ali-hernandez-96b1b71a9/",
     "education": [
         {
             "UniversityName": "Denver University",
@@ -27,7 +27,7 @@ let resumeData = {
             "YearOfPassing": "2020"
         },
     ],
-    "skillsDescription" : "Insert Skills HEre",
+    "skillsDescription" : "Insert Skills Here",
     "skills": [
         {
             "skillname":"HTML5"
