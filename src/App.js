@@ -8,6 +8,8 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Footer from './components/Footer/Footer';
 import resumeData from './components/ResumeData/resumeData';
 import ContactMe from './components/ContactForm/Contact';
+import '../src/App.css';
+
 
 class App extends Component {
   render() {
