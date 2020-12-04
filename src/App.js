@@ -1,28 +1,27 @@
-import React, { useState, useEffect} from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import React, {Component} from 'react';
+import Header from './components/Header';
+import About from './components/About/About';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import Testimonials from './components/Testimonials';
+// import Contact from './components/ContactForm';
+import Footer from './components/Footer';
+import resumeData from './components/ResumeData/resumeData';
+import ContactMe from './components/ContactForm';
 
-
-
-const App = () => {
-  
-  return (
-    
-      <Router>
-        <div>
-          <Switch>
-              <Route exact path="/" component={About} />
-            
-              <Route exact path="/portfolio" component={Portfolio} />
-              
-              <Route exact path="/contact" component={Contact} />
-              </Switch>
-        </div>
-      </Router>
-    
-  );
-};
-
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header resumeData={resumeData} />
+        <About resumeData={resumeData} />
+        <Resume resumeData={resumeData} />
+        <Portfolio resumeData={resumeData} />
+        <Testimonials resumeData={resumeData} />
+        <ContactMe resumeData={resumeData} />
+        <Footer resumeData={resumeData} />
+      </div>
+    );
+  }
+}
 export default App;
