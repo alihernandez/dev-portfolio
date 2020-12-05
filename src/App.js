@@ -8,13 +8,34 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Footer from './components/Footer/Footer';
 import resumeData from './components/ResumeData/resumeData';
 import ContactMe from './components/ContactForm/Contact';
+// import Particles from './components/Particles/particles'
+import Particles from 'react-particles-js';
 import '../src/App.css';
+// import logo from './images/ghoul.png';
+import logo from './images/ghoul.png';
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+         <Particles 
+              params={{
+            		particles: {
+            			line_linked: {
+            				shadow: {
+            					enable: true,
+            					color: "#3CA9D1",
+            					blur: 5
+            				}
+            			}
+            		}
+            	}}
+              style={{
+                width: '100%',
+                backgroundImage: {logo} 
+              }}
+            />
         <Header resumeData={resumeData} />
         <About resumeData={resumeData} />
         <Resume resumeData={resumeData} />
