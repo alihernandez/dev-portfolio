@@ -4,7 +4,8 @@ export default class Footer extends Component {
     render() {
         // let resumeData = this.props.resumeData;
         const footerStyle = {
-            backgroundColor: "darkgray"
+            backgroundColor: "#184A45FF",
+            border: "20px ridge rgb(45,41,38)"
         }
         return(
             // <footer>
