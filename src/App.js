@@ -24,10 +24,10 @@ class App extends Component {
          <Wrapper />
          <Header resumeData={resumeData} />
 		    <About resumeData={resumeData} />
+        <ContactMe resumeData={resumeData} />
 		    <Resume resumeData={resumeData} />
 		    <Portfolio resumeData={resumeData} />
         <Testimonials resumeData={resumeData} />
-		  <ContactMe resumeData={resumeData} />
 		  <Footer resumeData={resumeData} />
       </div>
     );

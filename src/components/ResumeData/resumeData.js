@@ -6,12 +6,12 @@ let resumeData = {
     "roleDescription": "",
     "socialLinks": [
         {
-            "name": "linkedin",
+            "name": "LinkedIn",
             "url": "https://www.linkedin.com/in/ali-hernandez-96b1b71a9/",
             "className": "fa fa-linkedin"
         },
         {
-            "name": "github",
+            "name": "GitHub",
             "url": "https://github.com/alihernandez",
             "className": "fa fa-github"
         }

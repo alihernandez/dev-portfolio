@@ -4,7 +4,7 @@ class Portfolio extends Component {
   render() {
 
     if(this.props.data){
-      var projects = this.props.data.projects.map(function(projects){
+      var projects = this.props.resueData.portfolio.map(function(projects){
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
@@ -29,8 +29,7 @@ class Portfolio extends Component {
       <div className="row">
 
          <div className="twelve columns collapsed">
-
-            <h1>Check Out Some of My Works.</h1>
+         <li><a href="https://alihernandez.github.io/desarrolladorPortfolio/portfolio.html">Check out some of my works!</a></li>
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}
