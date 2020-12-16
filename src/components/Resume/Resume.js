@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ProgressBar from "../ProgressBar/progress";
 
 export default class Resume extends Component {
     render() {
@@ -45,6 +46,7 @@ export default class Resume extends Component {
                                             <li key={item.id}>
                                                 <span className={`bar-expand ${item.skillname.toLowerCase()}`}></span>
                                                 <em>{item.skillname}</em>
+                                                <ProgressBar value={item.value} max={item.max} />
                                             </li>
                                         )
                                     })

@@ -6,12 +6,12 @@ let resumeData = {
     "roleDescription": "",
     "socialLinks": [
         {
-            "name": "linkedin",
+            "name": "LinkedIn",
             "url": "https://www.linkedin.com/in/ali-hernandez-96b1b71a9/",
             "className": "fa fa-linkedin"
         },
         {
-            "name": "github",
+            "name": "GitHub",
             "url": "https://github.com/alihernandez",
             "className": "fa fa-github"
         }
@@ -27,25 +27,63 @@ let resumeData = {
             "YearOfPassing": "2020"
         },
     ],
-    "skillsDescription" : "Insert Skills Here",
+    "skillsDescription" : "Proficient in these languages and frameworks",
     "skills": [
         {
+            "value":"80",
+            "max":"100",
             "skillname":"HTML5"
         },
         {
+            "value":"70",
+            "max":"100",
             "skillname":"CSS"
         },
         {
+            "value":"50",
+            "max":"100",
             "skillname":"ReactJS"
+        },
+        {
+            "value":"65",
+            "max":"100",
+            "skillname":"JavaScript"
         }
     ],
-    "portfolio": [
-        {
-            "name": "project1",
-            "description": "some bs school assignment",
-            "imgurl": "dev-portfolio/public/images/logo192.png"
-        },
-    ],
+    "portfolio":{
+        "projects": [
+          {
+            "title":"Study Buddy",
+            "category":"School group project",
+            "image":"canadian-wanderlust.jpg",
+            "url":"https://www.canadianwanderlust.com"
+          },
+          {
+            "title":"Password Generator",
+            "category":"(offline now) A fighting gear company I started",
+            "image":"fury-fighting-gear.jpg",
+            "url":"http://www.timbakerdev.com"
+          },
+          {
+            "title":"Weather API",
+            "category":"Weather tracking app",
+            "image":"original-thai-food.jpg",
+            "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+          },
+          {
+            "title":"Coding Quiz",
+            "category":"A React based resume website template",
+            "image":"resume-website.jpg",
+            "url":"http://www.timbakerdev.com"
+          },
+          {
+            "title":"PWA Budget Tracker",
+            "category":"(MVP Only) A React and Meteor based chat University project.",
+            "image":"smirkspace.jpg",
+            "url":"http://www.smirkspace.com"
+          }
+        ]
+      },
     "testimonials":[
         {
             "description": "This is a sample",
