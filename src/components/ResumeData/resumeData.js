@@ -16,14 +16,14 @@ let resumeData = {
             "className": "fa fa-github"
         }
     ],
-    "aboutme": "I am a student at the University of Denver, currently enrolled in the fullstack web development bootcamp. Originally from Guadalajara, Jalisco Mexico, I currently reside in the Rocky Mountains of Colorado. I have a passion for coding and am fluent in both Spanish and English. Previoius employers have said I am attentive to detail and have great work ethic.",
+    "aboutme": "I am a student at the University of Denver, recently graduated from the Full Stack Coding Bootcamp. Originally from Guadalajara, Jalisco Mexico, I currently reside in the Rocky Mountains of Colorado. I have a passion for coding and am fluent in both Spanish and English. Previoius employers have said I am attentive to detail and have great work ethic.",
     "address": "Colorado",
     "url": "https://www.linkedin.com/in/ali-hernandez-96b1b71a9/",
     "education": [
         {
             "UniversityName": "Denver University",
-            "specialization": "Full stack development",
-            "MonthOfPassing": "Dec",
+            "specialization": "Full Stack Coding Bootcamp",
+            "MonthOfPassing": "December ",
             "YearOfPassing": "2020"
         },
     ],
