@@ -26,7 +26,7 @@ export default class About extends Component {
                                         {resumeData.address}
                                     </span>
                                     <br></br>
-                                    <li> <a className="smoothscroll" href="{resumeData.url}">{resumeData.url}</a></li>
+                                    
                                 </p>
                             </div>
                         </div>
