@@ -16,7 +16,7 @@ let resumeData = {
             "className": "fa fa-github"
         }
     ],
-    "aboutme": "I am a student at the University of Denver, currently enrolled in the fullstack web development bootcamp. Originally from Guadalajara, Jalisco Mexico, he currently resides in the Rocky Mountains in Colorado. Enjoys snowboarding, music, and most things tech. Fluent in both Spanish and English. Attentive to detail and great work ethic.",
+    "aboutme": "I am a student at the University of Denver, currently enrolled in the fullstack web development bootcamp. Originally from Guadalajara, Jalisco Mexico, I currently reside in the Rocky Mountains of Colorado. I have a passion for coding and am fluent in both Spanish and English. Previoius employers have said I am attentive to detail and have great work ethic.",
     "address": "Colorado",
     "url": "https://www.linkedin.com/in/ali-hernandez-96b1b71a9/",
     "education": [
@@ -56,31 +56,31 @@ let resumeData = {
             "title":"Study Buddy",
             "category":"School group project",
             "image":"canadian-wanderlust.jpg",
-            "url":"https://www.canadianwanderlust.com"
+            "url":"https://studdybuddyahasjbjt.herokuapp.com/"
           },
           {
             "title":"Password Generator",
             "category":"(offline now) A fighting gear company I started",
             "image":"fury-fighting-gear.jpg",
-            "url":"http://www.timbakerdev.com"
+            "url":"https://alihernandez.github.io/passwordGenerator/"
           },
           {
             "title":"Weather API",
             "category":"Weather tracking app",
             "image":"original-thai-food.jpg",
-            "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+            "url":"https://alihernandez.github.io/WeatherAPI/"
           },
           {
             "title":"Coding Quiz",
             "category":"A React based resume website template",
             "image":"resume-website.jpg",
-            "url":"http://www.timbakerdev.com"
+            "url":"https://alihernandez.github.io/coding_quiz/"
           },
           {
             "title":"PWA Budget Tracker",
             "category":"(MVP Only) A React and Meteor based chat University project.",
             "image":"smirkspace.jpg",
-            "url":"http://www.smirkspace.com"
+            "url":"https://fathomless-headland-18861.herokuapp.com"
           }
         ]
       },

@@ -1,17 +1,6 @@
 import React, { Component } from "react";
-import Header from "../Header/Header";
-import About from "../About/About";
-import Resume from "../Resume/Resume";
-import Portfolio from "../Portfolio/Portfolio";
-import Testimonials from "../Testimonials/Testimonials";
-// import Contact from './components/ContactForm';
-import Footer from "../Footer/Footer";
-import resumeData from "../ResumeData/resumeData";
-import ContactMe from "../ContactForm/Contact";
-// import Particles from './components/Particles/particles'
 import Particles from "react-particles-js";
 import "../../App.css";
-// import logo from './images/ghoul.png';
 import logo from "../../images/ghoul.png";
 
 class Wrapper extends Component {

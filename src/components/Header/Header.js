@@ -4,22 +4,20 @@ export default class Header extends Component {
     render() {
         let resumeData = this.props.resumeData;
         const headerStyle = {
-            backgroundColor: "#B0B8B4FF"
+            backgroundColor: "#B0B8B4FF",
+            listStyle: "none"
         }
         return (
             <React.Fragment>
                 <header id="home" style={headerStyle}>
                     <nav id="nav-wrap">
-                        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-
-                        <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-                        <ul id="nav" className="nav">
+                        
+                        <ul id="nav" className="nav" style={headerStyle}>
                             <li className="current"><a className="smoothscroll" href="#home"></a></li>
                             <li> <a className="smoothscroll" href="#about">About</a></li>
                             <li> <a className="smoothscroll" href="#resume">Resume</a></li>
                             <li> <a className="smoothscroll" href="#portfolio">Projects</a></li>
-                            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+                            {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
                             <li><a className="smoothscroll" href="#contact">Contact</a></li>
                         </ul>
                     </nav>
@@ -32,7 +30,7 @@ export default class Header extends Component {
                             {
                                 resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                                     return(
-                                        <li key={item.name}>
+                                        <li style= {headerStyle} key={item.name}>
                                             <a href={item.url} target=""><i className={item.className}>{item.name}</i></a>
                                         </li>
                                     )

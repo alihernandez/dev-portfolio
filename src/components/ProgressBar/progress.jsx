@@ -6,6 +6,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const ProgressBar = ({ value, max }) => {
+    
     return (
         <progress value ={value} max={max} />
     )
