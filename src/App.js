@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import About from './components/About/About';
 import Resume from './components/Resume/Resume';
 import Portfolio from './components/Portfolio/Portfolio';
+import NavBar from "./components/NavBar/NavBar";
 // import Testimonials from './components/Testimonials/Testimonials';
 // import Contact from './components/ContactForm';
 import Footer from './components/Footer/Footer';
@@ -20,6 +21,7 @@ class App extends Component {
     return (
       <div className="App">
          <Wrapper />
+         {/* <NavBar /> */}
          <Header resumeData={resumeData} />
 		    <About resumeData={resumeData} />
         <ContactMe resumeData={resumeData} />
