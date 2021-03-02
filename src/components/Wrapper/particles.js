@@ -6,7 +6,7 @@ import logo from "../../images/ghoul.png";
 class Wrapper extends Component {
   render() {
     return (
-      <div className="App" style={{ backgroundColor: "#184A45FF", border: "20px ridge rgb(45,41,38)", height: "25px"}}>
+      <div>
         <Particles
           params={{
             particles: {
@@ -30,7 +30,9 @@ class Wrapper extends Component {
             height: "25%",
             backgroundImage: { logo },
           }}
-        ></Particles>
+        >
+          
+        </Particles>
       </div>
     );
   }
