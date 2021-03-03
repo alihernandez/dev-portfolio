@@ -21,6 +21,7 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
+        
          <NavBar />
          <Header resumeData={resumeData} />
 		    <About resumeData={resumeData} />

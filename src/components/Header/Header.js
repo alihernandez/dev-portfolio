@@ -4,17 +4,18 @@ export default class Header extends Component {
     render() {
         let resumeData = this.props.resumeData;
         const headerStyle = {
-            backgroundColor: "#B0B8B4FF",
+            
             listStyle: "none"
         }
         return (
-            <React.Fragment>
+            <React.Fragment style={{}}>
                 <header id="home" style={headerStyle}>
-                    <div className="row banner">
+                    <div className="row banner" >
                         <div className="banner-text">
                         <h1 className="responsive-headline">I am {resumeData.name}</h1>
+                        <hr />
                         <h3 style={{color: '#282c34', fontFamily:'sans-serif'}}>I am a {resumeData.role}.{resumeData.roleDescription}</h3>
-                        <hr/>
+                        
                         <ul className="row">
                             {
                                 resumeData.socialLinks && resumeData.socialLinks.map(item =>{
