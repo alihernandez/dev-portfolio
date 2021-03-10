@@ -7,27 +7,42 @@ import pic2 from "../../images/atom.png";
 import pic3 from "../../images/processor.png";
 import "../../App.css";
 import { Container } from "react-bootstrap";
+import resumeData from "../ResumeData/resumeData";
 
 class Portfolio extends Component {
   render() {
+    let resumeData = this.props.resumeData;
     const handleDragStart = (e) => e.preventDefault();
+    // var projects = this.props.resumeData.portfolio.map;
+    // var projectImage = "images/portfolio/" + projects.image;
 
     const items = [
+      // <Container>
+      //   <img
+      //     src={pic1}
+      //     alt=""
+      //     onDragStart={handleDragStart}
+      //     className="sliderimg"
+      //   ></img>
+      //   <h3>Study Buddy</h3>
+      //   <p></p>
+      //   <br />
+      //   <button>
+      //     <a href="https://github.com/alihernandez/studyv2">GitHub</a>
+      //   </button>
+      //   <button>
+      //     <a href=" https://reactstudybuddy.herokuapp.com">Deployed App</a>
+      //   </button>
+      // </Container>,
       <Container>
-        <img
-          src={pic1}
-          alt=""
-          onDragStart={handleDragStart}
-          className="sliderimg"
-        ></img>
-        <h3>Study Buddy</h3>
-        <p></p>
-        <br />
+        {/* <img src={projectImage} /> */}
+        <h3>{resumeData.portfolio.projects[0].title}</h3>
+        <p>{resumeData.portfolio.projects[0].category}</p>
         <button>
-          <a href="https://github.com/alihernandez/studyv2">GitHub</a>
+          <a href={resumeData.portfolio.projects[0].url}>Deployed App</a>
         </button>
         <button>
-          <a href=" https://reactstudybuddy.herokuapp.com">Deployed App</a>
+          <a href="https://github.com/alihernandez/studyv2">GitHub</a>
         </button>
       </Container>,
 
@@ -99,7 +114,9 @@ class Portfolio extends Component {
           <a href="https://github.com/alihernandez/studyv2">GitHub</a>
         </button>
         <button>
-          <a href="https://fathomless-headland-18861.herokuapp.com/">Deployed App</a>
+          <a href="https://fathomless-headland-18861.herokuapp.com/">
+            Deployed App
+          </a>
         </button>
       </Container>,
     ];

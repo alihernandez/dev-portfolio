@@ -55,7 +55,7 @@ let resumeData = {
           {
             "title":"Study Buddy",
             "category":"School group project",
-            "image":"canadian-wanderlust.jpg",
+            "image":"atom.png",
             "url":"https://studdybuddyahasjbjt.herokuapp.com/"
           },
           {
