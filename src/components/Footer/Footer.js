@@ -17,7 +17,7 @@ export default class Footer extends Component {
               <div className="col 16" >
                 <p>ali.hernandez9two@gmail.com</p>
                 <ul>
-                  <li><a href="https://drive.google.com/file/d/1dDq3R8_VMOO8uyL19HIRp6-BJCREo4Cw/view?usp=sharing">Resume</a></li>
+                  <li><a href="https://docs.google.com/document/d/1HfO7EoBMV-xKG8VwBZy7KIfKpd2i5ta-Kq9GEGOsHKE/edit?usp=sharing">Resume</a></li>
                   <li><a href="https://github.com/alihernandez">github</a></li>
                   <li><a href="https://www.linkedin.com/in/ali-hernandez-96b1b71a9/">LinkdIn</a></li>
                 </ul>
