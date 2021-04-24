@@ -12,14 +12,15 @@ import '../src/App.css';
 // import logo from './images/ghoul.png';
 // import logo from './images/ghoul.png';
 
-import Wrapper from './components/Wrapper/particles';
+
+import parts from './components/Wrapper/parts';
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-         <Wrapper />
+         
          <Header resumeData={resumeData} />
 		    <About resumeData={resumeData} />
         <ContactMe resumeData={resumeData} />

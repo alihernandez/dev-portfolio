@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Particles from "react-particles-js";
-import "../../App.css";
+
 import logo from "../../images/ghoul.png";
 
-class Wrapper extends Component {
+class parts extends Component {
   render() {
     return (
-      <div className="App" style={{ backgroundColor: "#184A45FF", border: "20px ridge rgb(45,41,38)", height: "25px"}}>
+      <div className="Particles" style={{ backgroundColor: "#184A45FF", border: "20px ridge rgb(45,41,38)", height: "25px"}}>
         <Particles
           params={{
             particles: {
@@ -27,7 +27,7 @@ class Wrapper extends Component {
           }}
           style={{
             width: "100%",
-            height: "25%",
+            height: "5%",
             backgroundImage: { logo },
           }}
         ></Particles>
@@ -35,4 +35,4 @@ class Wrapper extends Component {
     );
   }
 }
-export default Wrapper;
+export default parts;
