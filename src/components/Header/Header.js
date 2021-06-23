@@ -8,7 +8,7 @@ export default class Header extends Component {
         return (
             <React.Fragment >
                 <header id="home">
-                    <div className="row-banner">
+                    
                         <div className="banner-text">
                         <h1 className="responsive-headline">I am {resumeData.name}</h1>
                         <h3 style={{color: '#282c34', fontFamily:'sans-serif'}}>I am a {resumeData.role}.{resumeData.roleDescription}</h3>
@@ -17,7 +17,7 @@ export default class Header extends Component {
                             {
                                 resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                                     return(
-                                        <div className="row">
+                                        <div className="col">
                                         <li className="col-6" key={item.name}>
                                             <a href={item.url} target=""><i className={item.className}>{item.name}</i></a>
                                         </li>
@@ -27,7 +27,7 @@ export default class Header extends Component {
                             }
                         </ul>
                         </div>
-                    </div>
+                    
                     <p className="scrolldown">
                         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
                     </p>

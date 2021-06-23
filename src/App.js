@@ -24,7 +24,7 @@ class App extends Component {
          <NavBar />
          
          <Header resumeData={resumeData} key="head"/>
-         <br />
+         
 		    <About resumeData={resumeData} />
         <br />
         <ContactMe resumeData={resumeData} />

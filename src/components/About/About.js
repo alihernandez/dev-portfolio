@@ -9,34 +9,30 @@ export default class About extends Component {
         
 
         return(
-            <div id="abtme">
+            
 
-                <div className="col" >
+                    <div className="col">
+
+                        <div className="img-container">
                         <img className="profile-pic" src={mugShot} alt="face" />
+                        </div>
+
+                        <div className="col aboutme">
+                            <h2>About Me</h2>
+                            <p>
+                                {resumeData.aboutme}
+                            </p>
+                            <h2>Contact Details</h2>
+                            <p>
+                                {resumeData.name}
+                            </p>
+                            <p>
+                                {resumeData.address}
+                            </p>
+                        </div>
+
                     </div>
-                    
-                    <div >
-                        <h2 >About Me</h2>
-                        <p> 
-                            {resumeData.aboutme}
-                        </p>
-                        <div className="row">
-                            <div className="col contact-details">
-                                <h2>Contact Details</h2>
-                                <p className="address">
-                                    <span>{resumeData.name}</span>
-                                    <br></br>
-                                    <span>
-                                        {resumeData.address}
-                                    </span>
-                                    <br></br>
-                                    
-                                </p>
-                            </div>
-                        
-                    </div>
-                </div>
-                </div>
+                
         );
     }
 }

@@ -7,7 +7,7 @@ class NavBar extends Component {
   render() {
     return (
       <div className="navigation">
-        <Nav className="justify-content-center" activeKey="/home">
+        <Nav  activeKey="/home">
     <Nav.Item>
       <Nav.Link href="/About">About</Nav.Link>
     </Nav.Item>

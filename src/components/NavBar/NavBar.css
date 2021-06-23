@@ -1,4 +1,9 @@
-.navigation{
+.navigation {
     background-color: darkgray;
+    justify-content: center;
+        display: flex;
+        border: 3px solid #333333;
+        border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+
 }
 
