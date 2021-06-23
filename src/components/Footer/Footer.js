@@ -1,17 +1,15 @@
 import React, {Component} from 'react';
-import Particles from "react-particles-js";
 
 export default class Footer extends Component {
     render() {
         // let resumeData = this.props.resumeData;
         const footerStyle = {
             backgroundColor: "#184A45FF",
-            border: "20px ridge rgb(45,41,38)",
-            height: "150px"
+            border: "10px ridge rgb(45,41,38)",
         }
         return(   
 
-          <footer className="page-footer" >
+          <footer className="page-footer" style={footerStyle}>
           <div className="container">
             <div className="row">
               <div className="col 16" >
