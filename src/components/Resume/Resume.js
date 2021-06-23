@@ -1,20 +1,21 @@
 import React, {Component} from 'react';
 import ProgressBar from "../ProgressBar/progress";
+import './Resume.css';
 
 export default class Resume extends Component {
     render() {
         let resumeData = this.props.resumeData;
         return (
-            <section id="resume">
-                <div className="row education">
-                    <div className="three columns header-col">
+            <section className="col">
+                
+                    <div className="col">
                         <h1><span>Education</span></h1>
                     </div>
-                    <div className="nine columns main-col">
+                    <div>
                         {
                             resumeData.education && resumeData.education.map((item) =>{
                                 return(
-                                    <div className="row item">
+                                    <div className="col">
                                         <div className="twelve columns">
                                             <h3>{item.UniversityName}</h3>
                                             <p className="info">
@@ -32,14 +33,14 @@ export default class Resume extends Component {
                             })
                         }
                     </div>
-                </div>
-                <div className="row skill">
-                    <div className="nine columns main-col">
+                
+                <div className="row" id="bars">
+                    <div className="col">
                         <p>
                             {resumeData.skillsDescription}
                         </p>
-                        <div className="bars">
-                            <ul className="skills">
+                        
+                            <ul>
                                 {
                                     resumeData.skills && resumeData.skills.map((item) => {
                                         return(
@@ -52,7 +53,6 @@ export default class Resume extends Component {
                                     })
                                 }
                             </ul>
-                        </div>
                     </div>
                 </div>
             </section>

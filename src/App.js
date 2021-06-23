@@ -10,6 +10,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from './components/Footer/Footer';
 import resumeData from './components/ResumeData/resumeData';
 import ContactMe from './components/ContactForm/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 
@@ -17,19 +18,27 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        
         <Router>
         
          <NavBar />
-         <Header resumeData={resumeData} />
+         
+         <Header resumeData={resumeData} key="head"/>
+         <br />
 		    <About resumeData={resumeData} />
+        <br />
         <ContactMe resumeData={resumeData} />
-		    <Resume resumeData={resumeData} />
+        <br />
+		   
+       
          {/* <Wrapper /> */}
 		    {/* <Portfolio resumeData={resumeData} /> */}
         {/* <Testimonials resumeData={resumeData} />*/}
+        <Resume resumeData={resumeData} key="unique"/>
 		  <Footer resumeData={resumeData} /> 
       
       </Router>
+      
       </div>
     );
   }

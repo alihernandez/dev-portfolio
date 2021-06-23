@@ -1,27 +1,27 @@
 import React, {Component} from 'react';
 import mugShot from '../../images/mugShot.jpg';
+import './About.css';
 
 export default class About extends Component {
     render(){
         let resumeData = this.props.resumeData;
 
-        const aboutStyle = {
-            backgroundColor: "#B0B8B4FF"
-        }
+        
 
         return(
-            <section id="about">
-                <div className="row">
-                    <div className="three columns">
+            <div id="abtme">
+
+                <div className="col" >
                         <img className="profile-pic" src={mugShot} alt="face" />
                     </div>
-                    <div className="nine columns main-col" >
+                    
+                    <div >
                         <h2 >About Me</h2>
-                        <p style={aboutStyle}> 
+                        <p> 
                             {resumeData.aboutme}
                         </p>
                         <div className="row">
-                            <div className="Columns contact-details">
+                            <div className="col contact-details">
                                 <h2>Contact Details</h2>
                                 <p className="address">
                                     <span>{resumeData.name}</span>
@@ -33,10 +33,10 @@ export default class About extends Component {
                                     
                                 </p>
                             </div>
-                        </div>
+                        
                     </div>
                 </div>
-            </section>
+                </div>
         );
     }
 }
