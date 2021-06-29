@@ -9,7 +9,7 @@ export default class Header extends Component {
             <React.Fragment >
                 <header id="home">
                     
-                        <div className="banner-text">
+                        <div className="flex">
                         <h1 className="responsive-headline">I am {resumeData.name}</h1>
                         <h3 style={{color: '#282c34', fontFamily:'sans-serif'}}>I am a {resumeData.role}.{resumeData.roleDescription}</h3>
                         <hr/>

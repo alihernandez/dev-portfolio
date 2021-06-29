@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios';
 import {toast} from 'react-toastify';
+import './Contact.css'
 
 
 const ContactMe = () => {
@@ -82,7 +83,7 @@ else if(res.status===200){
 
             <div className="back-form">
                 <div className="img-back">
-                    <h4>Send your message</h4>
+                    {/* <h4>Send your message</h4> */}
                     {/* <img src={imgBack} alt=""/> */}
                 </div>
 
